@@ -59,14 +59,21 @@ ul {
 
 
 .main  {
-    background-image: url("../images/thighmasters collage logo.jpg");
+   /* background-image: url("../images/thighmasters collage logo.jpg");*/
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-
-
+/*
+.idxpic{
+  max-width:1000px;
+}*/
+.idxpic img {
+    width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 .about .container{
     display:flex;
     flex-direction: column; 
@@ -124,6 +131,9 @@ ul {
  /* .gallery li.menu-item:not(:last-child) { */
   .gallery li{ 
     margin-top: 25px;  
+ }
+ .gallery img{
+   width:100%;
  }
 
     
